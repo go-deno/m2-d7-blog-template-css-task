@@ -8,12 +8,25 @@ nav > * {
 }
 
 /* didnt change color of a tag text why?? */
-.jumbotron p.lead > a {
+.jumbotron a {
   color: lightpink !important;
   border: dotted 1px pink;
 }
 
-.blog-post > * {
+/* EX4) Write a selector to target the first blogposts */
+.blog-post:first-of-type {
   color: darkorange;
   border: darkorange solid 1px;
+}
+
+/* EX5) Write a selector to target the "even" links in the navbar */
+nav a:nth-child(even) {
+  background-color: black;
+  color: white !important;
+}
+
+/* EX6) Write a selector to target the last blog post */
+.blog-post:last-of-type {
+  color: brown;
+  border: 1px brown dotted;
 }
