@@ -1,0 +1,19 @@
+title {
+  color: blue;
+}
+
+nav > * {
+  color: orange;
+  border: 1px orange solid;
+}
+
+/* didnt change color of a tag text why?? */
+.jumbotron p.lead > a {
+  color: lightpink !important;
+  border: dotted 1px pink;
+}
+
+.blog-post > * {
+  color: darkorange;
+  border: darkorange solid 1px;
+}
